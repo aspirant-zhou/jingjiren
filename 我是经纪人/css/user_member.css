@@ -1,0 +1,194 @@
+body {
+    background: #f7f7f7;
+}
+
+header {
+    background: #444652;
+}
+
+header span {
+    color: #fff;
+}
+
+.bg {
+    margin-top: -.02rem;
+    width: 100%;
+    height: 1.5rem;
+    background: #444652;
+}
+
+.box {
+    padding: 0 .28rem;
+    height: 2.09rem;
+    position: relative;
+}
+
+.box .nameId {
+    width: 100%;
+    left: 0;
+    margin-top: -1.15rem;
+    height: 2.09rem;
+    top: -1.15rem;
+    background: url(../images/vipdiamond-f.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box .nameId .info {
+    padding-left: .3rem;
+}
+
+.box .nameId .info .top {
+    display: flex;
+    align-items: center;
+    margin-top: .3rem;
+}
+
+.box .nameId .info .top>img {
+    width: .84rem;
+    height: .84rem;
+}
+
+.box .nameId .info .top>div {
+    margin-left: .2rem;
+}
+
+.box .nameId .info .top>div p:nth-child(1),
+.box .nameId .info .top>div p:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.box .nameId .info .top>div p:nth-child(1) span {
+    font-size: .36rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.box .nameId .info .top>div p:nth-child(1) b {
+    width: 1.24rem;
+    height: .4rem;
+    background: #FFFFFF;
+    opacity: 0.43;
+    border-radius: 0px .19rem .19rem .21rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #B2833D;
+    text-align: center;
+    line-height: .4rem;
+    margin-left: .13rem;
+}
+
+.box .nameId .info .top>div p:nth-child(2) {
+    margin-top: .15rem;
+}
+
+.box .nameId .info .top>div p:nth-child(2) span {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.box .nameId .info .top>div p:nth-child(2) img {
+    margin-left: .1rem;
+}
+
+.box .nameId .info>p {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #FEF1DF;
+    margin-top: .2rem;
+}
+
+.nvip {
+    position: absolute;
+    width: 1.14rem;
+    height: .47rem;
+    background: #FCF2DC;
+    border-radius: 0px .1rem 0px .1rem;
+    top: 0;
+    right: .28rem;
+    font-size: .24rem;
+    font-weight: bold;
+    color: #C99954;
+    text-align: center;
+    line-height: .47rem;
+}
+
+main {
+    padding: 0 .28rem;
+}
+
+main .month {
+    padding: 0 .2rem;
+    /* padding: .6rem .2rem .3rem .2rem; */
+    margin-top: .5rem;
+    height: 2.75rem;
+    background: #FFFFFF;
+    box-shadow: 0px .04rem .23rem .04rem rgba(204, 204, 207, 0.17);
+    border-radius: .1rem;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+main .month>div {
+    margin-top: .56rem;
+}
+
+main .month>div>p {
+    display: flex;
+    align-items: center;
+    margin-bottom: .14rem;
+}
+
+main .month>div>p img {
+    width: .31rem;
+    height: .25rem;
+}
+
+main .month>div>p span {
+    margin-left: .13rem;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.month_ka {
+    position: absolute;
+    width: .94rem;
+    height: .52rem;
+    background: #EDCD99;
+    border-radius: .05rem;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #98661D;
+    left: .2rem;
+    top: -.26rem;
+    text-align: center;
+    line-height: .52rem;
+}
+
+.money {
+    position: absolute;
+    font-size: .28rem;
+    font-weight: bold;
+    color: #FE7648;
+    right: .2rem;
+    top: .54rem;
+}
+
+.kai {
+    position: absolute;
+    width: 1.64rem;
+    height: .57rem;
+    background: #D7B077;
+    border-radius: .29rem;
+    text-align: center;
+    line-height: .57rem;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    right: .2rem;
+    bottom: .3rem;
+}

@@ -1,0 +1,105 @@
+body {
+    background: #F7F7F7;
+}
+
+header {
+    padding: 0 .28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .88rem;
+    background: #fff;
+}
+
+header img {
+    width: .15rem;
+    height: .28rem;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.72rem;
+    width: 100%;
+    height: 100%;
+}
+
+header>div span {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+.active {
+    font-size: .36rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+main {
+    margin-top: .1rem;
+    padding: 0 .28rem;
+    background: #fff;
+}
+
+main .list {
+    height: 1.93rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+main .list>div>img {
+    width: .72rem;
+    height: .72rem;
+    margin-top: -.6rem;
+}
+
+main .list>div>div p:nth-child(1) {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #999999;
+}
+
+main .list>div>div p:nth-child(2) {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+    margin: .19rem 0 0.23rem 0;
+}
+
+main .list>div>div p:nth-child(3),
+main .list>div {
+    display: flex;
+    align-items: center;
+}
+
+main .list>div>div p:nth-child(3) span {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #B4B4B4;
+}
+
+main .list>div>div p:nth-child(3) img {
+    width: .24rem;
+    height: .24rem;
+    margin: 0 .06rem 0 .16rem;
+}
+
+main .list>div>div p:nth-child(3) b {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+main .list>div>div {
+    margin-left: .13rem;
+}
+
+main .list>img {
+    width: 1.16rem;
+    height: 1.16rem;
+    border: 1px solid #000;
+}

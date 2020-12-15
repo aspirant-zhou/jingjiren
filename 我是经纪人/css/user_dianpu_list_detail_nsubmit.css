@@ -1,0 +1,163 @@
+.join {
+    margin-top: .1rem;
+    /* padding: 0 .28rem; */
+}
+
+.join .join_in {
+    padding: 0 .28rem;
+    height: 2.3rem;
+    background: #fff;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+.join .join_in .progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .25rem 0 .18rem 0;
+}
+
+.join .join_in .progress>div {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join .join_in .progress>div>p.uname {
+    font-size: .28rem;
+    font-weight: 400;
+    margin-left: .22rem;
+    color: #333333;
+}
+
+.join .join_in .progress>div>p.push {
+    margin-top: 0.1rem;
+}
+
+.join .join_in .progress>div>p.push span {
+    font-size: .22rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: .12rem;
+    color: #6AB767;
+    width: .42rem;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    border-radius: .08rem;
+    background: #E8F7E8;
+}
+
+.join .join_in .progress>div>p.push span:nth-child(1) {
+    width: .6rem;
+    height: .3rem;
+    font-weight: 400;
+    color: #999999;
+    background: #F4F4F4;
+}
+
+.join .join_in .progress>div img.tx {
+    width: .52rem;
+    height: .52rem;
+}
+
+.join .join_in .progress>div img.vip {
+    position: absolute;
+    width: .41rem;
+    height: .21rem;
+    bottom: 0;
+    left: .25rem;
+}
+
+.join .join_in .progress>p {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #FE7648;
+}
+
+.join .join_in .new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.join .join_in .new p:nth-child(1) {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.join .join_in .new p:nth-child(2) {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #666666;
+}
+
+.join .join_in .timeDate span {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+    display: inline-block;
+}
+
+.join .join_in .timeDate span:nth-child(2) {
+    margin-left: .33rem;
+}
+
+.join .join_in .timeDate {
+    margin-top: .3rem;
+}
+
+.join .join_in .timeDate p {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+main .ren_name {
+    margin-top: .1rem;
+    padding: 0 .28rem;
+    height: 1.42rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+main .ren_name img {
+    width: .72rem;
+    height: .72rem;
+}
+
+main .ren_name b {
+    margin-left: .27rem;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+main .await {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.27rem;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+main .await>div {
+    margin: 0 auto;
+    width: 3.9rem;
+    height: 1.67rem;
+    background: url(../images/tjawait.png) no-repeat center;
+}
+
+main .await img {
+    margin: 0 auto;
+}
+
+main .await span {
+    display: inline-block;
+    margin-top: .46rem;
+}

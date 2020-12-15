@@ -1,0 +1,98 @@
+body {
+    background: #fff;
+}
+
+.bg {
+    height: .1rem;
+    background: #f7f7f7;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+.logo p {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #7BC678;
+    border-radius: .1rem;
+    font-size: .42rem;
+    font-weight: 400;
+    color: #F1EDE0;
+    line-height: .54rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.logo b {
+    font-size: .42rem;
+    font-weight: bold;
+    color: #333333;
+    margin-top: .39rem;
+}
+
+.logo span {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+    margin-top: .23rem;
+}
+
+.list {
+    margin-top: .59rem;
+    padding: 0 .75rem;
+}
+
+.list li {
+    height: 1.1rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list span {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.list li img {
+    width: .1rem;
+    height: .22rem;
+}
+
+.list li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom b {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+.bottom p {
+    width: .78rem;
+    height: .42rem;
+    background: #F0F0F0;
+    border-radius: .1rem;
+    text-align: center;
+    line-height: .42rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+    margin-left: .2rem;
+}

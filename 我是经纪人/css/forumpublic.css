@@ -1,0 +1,49 @@
+footer {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+
+footer .foot {
+    width: 6.48rem;
+    margin: .14rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .foot p img {
+    margin: 0 auto;
+    width: .36rem;
+    height: .36rem;
+    margin-bottom: .11rem;
+}
+
+footer .foot p:nth-child(3) {
+    width: .8rem;
+    height: 1.2rem;
+    position: relative;
+}
+
+footer .foot p:nth-child(3) img {
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    left: 0;
+    top: -.45rem;
+    width: 100%;
+}
+
+footer .foot p:nth-child(3) b {
+    position: absolute;
+    left: .15rem;
+    bottom: .43rem;
+}
+
+footer .foot p b {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+    margin-top: .11rem;
+}

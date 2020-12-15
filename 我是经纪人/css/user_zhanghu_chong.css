@@ -1,0 +1,91 @@
+main .price {
+    margin-top: .1rem;
+    padding: 0 .28rem;
+    background: #fff;
+    height: 2.15rem;
+}
+
+main .price span {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #222222;
+    margin: .29rem 0 .3rem 0;
+    display: inline-block;
+}
+
+main .price input {
+    width: 100%;
+    height: .83rem;
+    font-size: .46rem;
+    border: none;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+main .price input::placeholder {
+    width: 100%;
+    font-size: .46rem;
+    font-weight: 400;
+    color: #CCCCCC;
+}
+
+main .pay {
+    padding: 0 .28rem;
+    height: 2.95rem;
+    background: #fff;
+    margin-top: .1rem;
+    overflow: hidden;
+}
+
+main .pay>div {
+    height: 1.12rem;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .pay>div>img {
+    width: .36rem;
+    height: .36rem;
+}
+
+main .pay>div>p {
+    display: flex;
+    align-items: center;
+}
+
+main .pay>div>p>img {
+    width: .36rem;
+    height: .34rem;
+}
+
+main .pay>div>p>span {
+    margin-left: .11rem;
+    font-size: .32rem;
+    font-weight: 400;
+    color: #222222;
+    margin-top: -.1rem;
+}
+
+main .pay>p {
+    margin-top: .4rem;
+    font-size: .32rem;
+    font-weight: 400;
+    color: #222222;
+}
+
+main .warning {
+    padding: .33rem .28rem;
+}
+
+main .warning p {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

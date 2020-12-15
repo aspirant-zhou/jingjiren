@@ -1,0 +1,116 @@
+header .share {
+    position: absolute;
+    right: 0.28rem;
+    width: .34rem;
+    height: .3rem;
+}
+
+main {
+    padding: 0 .28rem;
+}
+
+main .big {
+    padding: 0 .2rem;
+    background: #fff;
+    margin-top: .1rem;
+    border-radius: .1rem;
+    overflow: hidden;
+}
+
+main .big .top {
+    height: 0.68rem;
+    margin-top: .22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .big .top>div {
+    display: flex;
+    align-items: center;
+}
+
+main .big .top>div>div img {
+    width: .6rem;
+    height: 0.6rem;
+    margin-top: .08rem;
+}
+
+main .big .top .con_right {
+    margin-left: .19rem;
+}
+
+main .big .top .taobao span {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+main .big .top .taobao b {
+    width: .72rem;
+    height: .38rem;
+    margin-left: .05rem;
+    background: #E8F7E8;
+    border-radius: .08rem;
+    display: inline-block;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #4DA24A;
+    line-height: .38rem;
+    text-align: center;
+}
+
+main .big .top .time {
+    font-size: .2rem;
+    font-weight: 400;
+    color: #999999;
+    margin-top: .05rem;
+}
+
+main .big .top .time b:nth-child(2) {
+    margin-left: .12rem;
+}
+
+main .big .top>p img {
+    width: .28rem;
+    height: .31rem;
+}
+
+main .big .con {
+    padding: .28rem 0;
+    font-size: .32rem;
+    font-weight: 400;
+    color: #111111;
+    line-height: .48rem;
+}
+
+main .big .photo img {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: .05rem;
+    margin-bottom: .05rem;
+    display: inline-block;
+}
+
+main .big .bottom {
+    margin-top: .28rem;
+    height: .88rem;
+    padding: 0 .32rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .big .bottom p {
+    display: flex;
+    align-items: center;
+}
+
+main .big .bottom p b {
+    margin-left: .1rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #666666;
+    line-height: .48rem;
+}

@@ -1,0 +1,139 @@
+body {
+    background: #F7F7F7;
+}
+
+header {
+    padding: 0 .28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .88rem;
+    background: #fff;
+}
+
+header img {
+    width: .15rem;
+    height: .28rem;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.72rem;
+    width: 100%;
+    height: 100%;
+}
+
+header>div span {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+.active {
+    font-size: .36rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+main {
+    margin-top: .1rem;
+    padding: 0 .28rem;
+    background: #fff;
+}
+
+main .list {
+    height: 1.56rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+
+/* 没关注 打算去关注 */
+
+main .list>p.gz {
+    width: 1.4rem;
+    height: .52rem;
+    background: #7BC678;
+    border-radius: .26rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: .52rem;
+}
+
+
+/* 互相关注 */
+
+main .list>p.hgz {
+    width: 1.4rem;
+    height: .52rem;
+    background: #FFFFFF;
+    border: 1px solid #7BC678;
+    border-radius: .26rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #6DBE6A;
+    text-align: center;
+    line-height: .52rem;
+}
+
+
+/* 关注过 打算取消关注 */
+
+main .list>p.no_gz {
+    width: 1.4rem;
+    height: .52rem;
+    background: #C7C7C7;
+    border-radius: .26rem;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: .52rem;
+}
+
+main .list>div>img {
+    width: .72rem;
+    height: .72rem;
+    /* margin-top: -.6rem; */
+}
+
+main .list>div {
+    display: flex;
+    align-items: center;
+}
+
+main .list>div>div>span {
+    display: inline-block;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #9F9F9F;
+    margin-top: .05rem;
+}
+
+main .list>div>div {
+    margin-left: .31rem;
+}
+
+main .list>div>div b:nth-child(1) {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+main .list>div>div b:nth-child(2) {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+main .list>img {
+    width: 1.16rem;
+    height: 1.16rem;
+    border: 1px solid #000;
+}

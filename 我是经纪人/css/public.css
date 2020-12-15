@@ -1,0 +1,52 @@
+body {
+    background: #F7F7F7;
+}
+
+
+/* 头部 */
+
+header {
+    padding: 0 .28rem;
+    height: .88rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+header span {
+    flex: 1;
+    text-align: center;
+    font-size: .36rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+header img {
+    width: .16rem;
+    height: .28rem;
+    position: absolute;
+}
+
+
+/* main */
+
+
+/* main {
+    padding: 0 .28rem;
+} */
+
+
+/* 发布按钮 */
+
+footer {
+    width: 100%;
+    height: .98rem;
+    background: #6CCE68;
+    font-size: .36rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .98rem;
+    text-align: center;
+}

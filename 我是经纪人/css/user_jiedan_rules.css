@@ -1,0 +1,18 @@
+body {
+    background: #fff;
+}
+
+.bg {
+    height: .1rem;
+    background: #f7f7f7;
+}
+
+main {
+    padding: .36rem .28rem .27rem .28rem;
+}
+
+main p {
+    font-size: .28rem;
+    color: #333;
+    line-height: .48rem;
+}

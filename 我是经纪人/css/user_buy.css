@@ -1,0 +1,75 @@
+main {
+    padding: 0 .28rem;
+}
+
+main .member {
+    padding: .4rem .19rem 0 .19rem;
+    height: 1.59rem;
+    background: #fff;
+    border-radius: .1rem;
+    margin-top: .2rem;
+    box-sizing: border-box;
+}
+
+main .member p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .member p span {
+    font-size: .36rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+main .member p b {
+    font-size: .28rem;
+    font-weight: bold;
+    color: #FE7648;
+}
+
+main .member>span {
+    display: inline-block;
+    font-size: .24rem;
+    font-weight: 400;
+    color: #999999;
+    margin-top: .2rem;
+}
+
+main .cut {
+    height: 2.34rem;
+    background: #fff;
+    margin-top: .2rem;
+    padding: 0 .19rem;
+}
+
+main .cut>p {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #333333;
+    padding-top: .39rem;
+}
+
+main .cut .zfb {
+    padding-top: .25rem;
+}
+
+main .cut .zfb,
+main .cut .zfb>p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .cut .zfb img {
+    width: .34rem;
+    height: .34rem;
+}
+
+main .cut .zfb p span {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+    margin-left: .1rem;
+}

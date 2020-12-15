@@ -1,0 +1,11 @@
+main {
+    margin-top: .1rem;
+    background: #fff;
+    padding: .37rem .29rem .29rem .29rem;
+}
+
+main p {
+    font-size: .28rem;
+    color: #666;
+    line-height: .48rem;
+}

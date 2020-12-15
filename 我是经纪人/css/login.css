@@ -1,0 +1,50 @@
+.box {
+    width: 100%;
+    height: 12.08rem;
+    margin-top: .88rem;
+    overflow: hidden;
+}
+
+.box .logo {
+    width: 1.57rem;
+    height: 1.57rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #81D67E;
+    border-radius: .2rem;
+    font-size: .42rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.57rem;
+}
+
+.box p {
+    margin-top: .39rem;
+    font-size: .36rem;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+}
+
+.box .wxLogin {
+    margin: 7.44rem auto;
+    width: 5rem;
+    height: .84rem;
+    background: #81D67E;
+    border-radius: .42rem;
+    display: flex;
+    align-items: center;
+}
+
+.box .wxLogin img {
+    width: .38rem;
+    height: .31rem;
+    margin-left: 1.6rem;
+}
+
+.box .wxLogin b {
+    font-size: .32rem;
+    color: #fff;
+    margin-left: .18rem;
+}

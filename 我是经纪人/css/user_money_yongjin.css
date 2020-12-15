@@ -1,0 +1,78 @@
+main {
+    padding: 0 .28rem;
+    background: #fff;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+}
+
+main .money {
+    width: 100%;
+    height: 4.52rem;
+}
+
+main .money .amount {
+    width: 100%;
+    height: 2.32rem;
+    margin-top: .2rem;
+    overflow: hidden;
+    background: url(../images/my/bg3.png) no-repeat center;
+    background-size: cover;
+}
+
+main .money .amount>div {
+    padding: 0 .2rem 0 .32rem;
+}
+
+main .money .amount>div p:nth-child(1) {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: .48rem;
+    margin-top: .54rem;
+}
+
+main .money .amount>div p:nth-child(2) {
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .money .amount>div p:nth-child(2) span:nth-child(1) {
+    font-size: .6rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: .48rem;
+}
+
+main .money .amount>div p:nth-child(2) span:nth-child(2) {
+    display: inline-block;
+    width: 1.6rem;
+    height: .62rem;
+    border-radius: .31rem;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: .62rem;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #FE835A;
+}
+
+main .total {
+    border-bottom: 1px solid #eee;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .total p:nth-child(1) {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+main .total p:nth-child(2) {
+    font-size: .36rem;
+    font-weight: bold;
+    color: #333333;
+}

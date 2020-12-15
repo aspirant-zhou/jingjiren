@@ -1,0 +1,62 @@
+body {
+    background: #fff;
+}
+
+.bg {
+    height: .1rem;
+    background: #f7f7f7;
+}
+
+main {
+    padding: 0 .28rem;
+    margin-bottom: 1rem;
+}
+
+main>p {
+    font-size: .32rem;
+    font-weight: bold;
+    color: #333333;
+    margin: .29rem 0 .31rem 0;
+    display: flex;
+    align-items: center;
+}
+
+main .detail>p span {
+    display: inline-block;
+    width: .34rem;
+    height: .34rem;
+    background: #7BC678;
+    border-radius: 50%;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .34rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+main .detail>p b {
+    font-size: .28rem;
+    font-weight: 400;
+    color: #333333;
+    margin-left: .11rem;
+}
+
+main .detail>div.photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .4rem;
+    flex-wrap: wrap;
+}
+
+main .detail>div.photo img {
+    width: 3.3rem;
+    height: 4.95rem;
+    margin-top: .2rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

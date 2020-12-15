@@ -1,0 +1,58 @@
+main {
+    background: #fff;
+    padding: 0 .28rem;
+}
+
+main .photo {
+    height: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+main .photo img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+main .photo>p {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+main .user_name {
+    height: 1.14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+main .user_name span {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+main .user_name b {
+    font-size: .32rem;
+    font-weight: 400;
+    color: #222222;
+}
+
+main .user_name>p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .user_name>p b {
+    margin-right: .14rem;
+}
+
+main .user_name>p img {
+    width: .11rem;
+    height: .22rem;
+}

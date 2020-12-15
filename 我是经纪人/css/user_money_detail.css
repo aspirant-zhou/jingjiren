@@ -1,0 +1,68 @@
+body {
+    background: #FFF;
+}
+
+.nav {
+    height: .76rem;
+    width: 100%;
+    background: #F7F7F7;
+}
+
+.nav>div {
+    padding-left: .38rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.nav span {
+    display: inline-block;
+    line-height: .76rem;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-right: .78rem;
+    /* border-bottom: 0.04rem solid #61C65D; */
+}
+
+
+/* .active {
+    width: .4rem;
+    height: .04rem;
+    background: #61C65D;
+    border-radius: .02rem;
+} */
+
+main {
+    padding: 0 .28rem;
+}
+
+main .task {
+    height: 1.22rem;
+    border-bottom: 1px solid #eee;
+}
+
+main .task p>span.color {
+    color: #FE7648;
+}
+
+main .task p:nth-child(1) {
+    height: .31rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .32rem;
+    color: #222222;
+    margin: .4rem 0 .22rem 0;
+}
+
+main .task p:nth-child(1) span:nth-child(2) {
+    font-size: .32rem;
+    font-weight: bold;
+    color: 222222;
+}
+
+main .task p:nth-child(2) {
+    font-size: .24rem;
+    font-weight: 400;
+    color: #9A9A9A;
+}
